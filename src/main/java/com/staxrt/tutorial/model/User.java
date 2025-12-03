@@ -60,18 +60,18 @@ public class User {
     @Column(name = "created_at", nullable = false)
     private Date createdAt;
 
-    @Column(name = "created_by", nullable = false)
+    @Column(name = "created_by", nullable = true)
     @CreatedBy
-    private String createdBy;
+    //private String createdBy;
 
     @UpdateTimestamp
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "updated_at", nullable = false)
     private Date updatedAt;
 
-    @Column(name = "updated_by", nullable = false)
+    @Column(name = "updated_by", nullable = true)
     @LastModifiedBy
-    private String updatedBy;
+    // private String updatedBy;
 
   /**
    * Gets id.
