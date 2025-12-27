@@ -23,4 +23,5 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-k8s/mysql/mysql-secrert.yaml
+### Kubernetes Secrets ###
+k8s/mysql/mysql-secret.yaml
