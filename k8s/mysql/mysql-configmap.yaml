@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+  namespace: springboot
+data:
+  MYSQL_DATABASE: users_database
+  MYSQL_ROOT_HOST: "%"
